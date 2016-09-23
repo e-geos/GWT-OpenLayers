@@ -7,7 +7,7 @@
     </parent>
     <groupId>org.gwtopenmaps.openlayers</groupId>
     <artifactId>gwt-openlayers</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1.1-SNAPSHOT</version>
     <name>${project.artifactId}</name>
     <description>GWT-OpenLayers is a GWT Wrapper for the OpenLayers JavaScript Map Library</description>
     <url>http://gwt-openlayers.sourceforge.net/maven-site-latest</url>
@@ -127,10 +127,10 @@
         </notifiers>
     </ciManagement>
     <properties>
-        <gwt.version>2.7.0</gwt.version>
+        <gwt.version>2.8.0-rc2</gwt.version>
         <slf4j-version>1.7.5</slf4j-version>
-        <maven.compiler.source>1.5</maven.compiler.source>
-        <maven.compiler.target>1.5</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
         <!-- properties with no dots for velocity template filters -->
         <projectGroupId>${project.groupId}</projectGroupId>
         <projectArtifactId>${project.artifactId}</projectArtifactId>
